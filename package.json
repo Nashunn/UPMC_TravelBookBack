@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "epub-gen": "0.0.17",
     "express": "^4.16.2",
     "jsonwebtoken": "^8.1.1"
   }
