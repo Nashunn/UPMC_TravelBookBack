@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <package xmlns="http://www.idpf.org/2007/opf"
+    	     unique-identifier="dcidid"
+	     version="2.0">
+	     
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+    	      xmlns:opf="http://www.idpf.org/2007/opf"
+	      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title> Anderson </dc:title>
+    <dc:creator opf:role="aut"> Verlynde, maxime </dc:creator>
+    <dc:language xsi:type="dcterms:RFC3066">fr</dc:language>
+    <dc:identifier id="dcidid" opf:scheme="dcidid">978465164987</dc:identifier>
+    </metadata>
+    
+    <!-- fichiers ressources -->
+    <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="Maxime Verlynde.css" href="MaximeVerlynde.css"  media-type="text/css"/>
+    <item id="Chp1" href="Chp1.html" media-type="application/xhtml+xml"/>
+	<item id="Chp2" href="Chp2.html" media-type="application/xhtml+xml"/>
+    </manifest>
+     
+    <!-- ordre de lecture -->
+    <spine toc="ncx">
+    <itemref idref="Chp1"/>
+    <itemref idref="Chp2"/>
+    </spine>
+    
+    </package>
